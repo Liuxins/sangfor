@@ -21,9 +21,9 @@ func main() {
 	acSrv := sangfor.NewAC("192.168.1.1:9999", "YR9nQngmvhX&9BE83K")
 	version, err := acSrv.GetVersion()
 	if err != nil {
-		fmt.Println(err.Error())
+		errHandle...
 	}
-	fmt.Println(version)
+	doSomething ...
 }
 ```
 
